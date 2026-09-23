@@ -1,0 +1,10 @@
+{"expected_contains": ["3968"], "expected_tool": "calculator", "id": "calc-1", "task": "Calculate 240 * 16 + 128"}
+{"expected_contains": ["126"], "expected_tool": "calculator", "id": "calc-2", "task": "What is (100 - 37) * 2?"}
+{"expected_contains": ["32"], "expected_tool": "calculator", "id": "calc-3", "task": "Calculate 1024 divided by 32"}
+{"expected_contains": ["50"], "expected_tool": "calculator", "id": "calc-4", "task": "What is 7 * 8 - 6?"}
+{"expected_contains": ["QA-1042", "Login times out"], "expected_tool": "search_bugs", "id": "bug-1", "task": "Find bugs related to login timeout"}
+{"expected_contains": ["QA-3301", "duplicate charge"], "expected_tool": "search_bugs", "id": "bug-2", "task": "Search open critical defects in the payments flow"}
+{"expected_contains": ["QA-2088", "flaky"], "expected_tool": "search_bugs", "id": "bug-3", "task": "Show me bugs about flaky checkout tests"}
+{"expected_contains": ["QA-4150", "Search API"], "expected_tool": "search_bugs", "id": "bug-4", "task": "Are there any open issues with the search API timing out?"}
+{"expected_contains": ["Build 4521 passed all smoke tests"], "expected_tool": "summarize_text", "id": "sum-1", "task": "Summarize this release note: Build 4521 passed all smoke tests. Three flaky tests were quarantined. The release is approved for rollout."}
+{"expected_contains": ["1,240 tests", "1,198 passed"], "expected_tool": "summarize_text", "id": "sum-2", "task": "Summarize in 2 sentences: The nightly regression suite ran 1,240 tests. 1,198 passed and 42 failed. Most failures were traced to a stale test-data fixture. The fixture was refreshed and the suite is green again."}
