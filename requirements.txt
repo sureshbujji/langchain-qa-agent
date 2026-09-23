@@ -1,0 +1,5 @@
+# Pinned together: langchain 1.4.2 requires langchain-core 1.6.x.
+# Verified to install cleanly together (see README).
+langchain==1.4.2
+langchain-core==1.6.4
+pytest==9.1.1
